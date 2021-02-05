@@ -12,7 +12,9 @@ namespace _15_How_The_Compiler_Implements_Events
         static void Main()
         {
             Cow c = new Cow();
-            c.Mooing(); // The event Cow.Mooing can only appear on the left side of += or -= (exept when used from within the type Cow)
+
+            // The event Cow.Mooing can only appear on the left side of += or -= (exept when used from within the type Cow)
+            //c.Mooing(); 
         }
     }
 }

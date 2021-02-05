@@ -18,6 +18,7 @@ namespace _12_More_Complex_Closures
             int j = 5;
             ret += () => i++;
             ret += () => j++;
+            ret += () => { i++; j++; };
             return ret;
         }
     }
